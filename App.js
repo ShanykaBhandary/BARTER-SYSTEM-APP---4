@@ -15,7 +15,7 @@ import {createBottomTabNavigator} from 'react-navigation-tabs'
 }
 const SwitchNavigator=createSwitchNavigator({
   WelcomeScreen:{screen:WelcomeScreen},
-  AppDrawerNavigator:{screen:AppDrawerNavigation}
+ 
 })
 const AppContainer=createAppContainer(
   SwitchNavigator
